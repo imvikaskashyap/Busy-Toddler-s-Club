@@ -1,7 +1,6 @@
 import React from "react";
-import Carousel from "nuka-carousel";
+import Carousel from "framer-motion-carousel";
 import Gallery from "./Gallery";
-
 import "./Home.css";
 
 import img1 from "./../../assets/img1.jpg";
@@ -16,11 +15,13 @@ import ProductSlider from "./ProductSlider";
 const Home = () => {
 	return (
 		<div>
-			<Carousel>
-				<img className="img" src={img1} />
-				<img className="img" src={img2} />
-				<img className="img" src={img3} />
-			</Carousel>
+			<div className="carousel">
+				<Carousel>
+					<img className="img" src={img1} />
+					<img className="img" src={img2} />
+					<img className="img" src={img3} />
+				</Carousel>
+			</div>
 
 			<div className="deliverySetup">
 				<div className="deliverySetup_heading">
