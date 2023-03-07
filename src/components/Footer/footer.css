@@ -1,0 +1,37 @@
+footer {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	/* justify-content: center; */
+	background-color: #000000;
+	color: #fff;
+}
+
+.sectionUpper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 160px;
+	padding: 0 4%;
+}
+
+.inputBtn {
+	width: 33px;
+	margin-top: -6px;
+	cursor: pointer;
+}
+
+.social-links img {
+	width: 40px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.seticonDown {
+	margin-left: 50px;
+}

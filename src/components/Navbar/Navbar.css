@@ -1,0 +1,40 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 4%;
+	border-radius: 30%;
+}
+
+nav img {
+	width: 63px;
+	border-radius: 50%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 45%;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-size: 18px;
+}
+
+nav ul li:hover {
+	color: #87ceeb;
+}
+
+.searchPart {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 10%;
+}
+
+.searchPart img {
+	width: 30px;
+	cursor: pointer;
+}
