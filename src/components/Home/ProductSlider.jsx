@@ -70,7 +70,7 @@ class ProductSlider extends Component {
 		};
 		return (
 			<div>
-				<h2 className="heading">Products</h2>
+				<h1 className="heading">Products</h1>
 				<Slider {...settings}>
 					{this.state.slides.map((slide, index) => {
 						return (
